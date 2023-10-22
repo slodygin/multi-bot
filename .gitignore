@@ -1,0 +1,22 @@
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+node_modules
+
+# built files
+/dist
+
+# local env files
+.docker/.env
+
+# Log files
+npm-debug.log*
+newrelic_agent.log*
+
+# Editor directories and files
+.idea
+.vscode
+
+# mongodb
+mongodb_data
