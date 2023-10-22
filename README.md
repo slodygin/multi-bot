@@ -14,6 +14,7 @@ http://127.0.0.1:8080
 docker-compose logs slack
 #смотрим, что coffeechat сервис получает сообщения и сохраняет в mongodb
 docker-compose logs coffeechat
+```
 
 # Полезные команды
 ```
