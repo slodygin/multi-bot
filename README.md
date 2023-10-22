@@ -2,10 +2,18 @@
 ```
 git clone ... multi-bot
 cd multi-bot
+sudo su
 docker-compose up -d --build
 ```
 
-
+# Проверка что все запустилось
+```
+#смотрим в браузере, что число меняется постоянно
+http://127.0.0.1:8080
+#смотрим, что slack сервис постоянно посылает сообщения в kafka
+docker-compose logs slack
+#смотрим, что coffeechat сервис получает сообщения и сохраняет в mongodb
+docker-compose logs coffeechat
 
 # Полезные команды
 ```
